@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d42d4364-cd25-4879-9e29-f719fb133afd" name="Pitsanu.T@PC-014 2013-04-11 15:50:45" runUser="CARPASSAD\Pitsanu.T" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e6779ef9-9e2a-4e1d-ad31-cb7b88621448">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pitsanu.T_PC-014 2013-04-11 15_50_45" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-11T15:50:45.9280926+07:00" queuing="2013-04-11T15:50:45.9749052+07:00" start="2013-04-11T15:50:45.9749052+07:00" finish="2013-04-11T15:50:46.2869892+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\practices\lab_csharp\languagetest\languagetest\bin\debug\languagetest.dll" id="ccb709fb-af1d-7b89-16b4-f3bb0c820935">
+      <Execution id="2134b9d6-d193-44dd-9efe-d2204bdb7d1e" />
+      <TestMethod codeBase="D:/practices/Lab_CSharp/LanguageTest/LanguageTest/bin/Debug/LanguageTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LanguageTest.EndianTest, LanguageTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ccb709fb-af1d-7b89-16b4-f3bb0c820935" executionId="2134b9d6-d193-44dd-9efe-d2204bdb7d1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2134b9d6-d193-44dd-9efe-d2204bdb7d1e" testId="ccb709fb-af1d-7b89-16b4-f3bb0c820935" testName="TestMethod1" computerName="PC-014" duration="00:00:00.0148007" startTime="2013-04-11T15:50:45.9905094+07:00" endTime="2013-04-11T15:50:46.2557808+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2134b9d6-d193-44dd-9efe-d2204bdb7d1e">
+      <Output>
+        <StdOut>int: 1638400</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

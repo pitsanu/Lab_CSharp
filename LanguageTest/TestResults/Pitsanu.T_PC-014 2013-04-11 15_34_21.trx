@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ff253238-35e6-496a-84ed-00bd27bf7a33" name="Pitsanu.T@PC-014 2013-04-11 15:34:21" runUser="CARPASSAD\Pitsanu.T" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e6779ef9-9e2a-4e1d-ad31-cb7b88621448">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pitsanu.T_PC-014 2013-04-11 15_34_21" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-11T15:34:21.2317179+07:00" queuing="2013-04-11T15:34:27.2541248+07:00" start="2013-04-11T15:34:27.6000594+07:00" finish="2013-04-11T15:34:28.7636576+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestUnSignValue" storage="d:\practices\lab_csharp\languagetest\languagetest\bin\debug\languagetest.dll" id="63021a4d-dfa6-240f-50c5-7497253a5dc5">
+      <Execution id="d00ab1dc-2b89-4a1f-b107-f5694282dd4c" />
+      <TestMethod codeBase="D:/practices/Lab_CSharp/LanguageTest/LanguageTest/bin/Debug/LanguageTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LanguageTest.UnitTest1, LanguageTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUnSignValue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63021a4d-dfa6-240f-50c5-7497253a5dc5" executionId="d00ab1dc-2b89-4a1f-b107-f5694282dd4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d00ab1dc-2b89-4a1f-b107-f5694282dd4c" testId="63021a4d-dfa6-240f-50c5-7497253a5dc5" testName="TestUnSignValue" computerName="PC-014" duration="00:00:00.0315449" startTime="2013-04-11T15:34:28.0717884+07:00" endTime="2013-04-11T15:34:28.7164847+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d00ab1dc-2b89-4a1f-b107-f5694282dd4c">
+      <Output>
+        <StdOut>16777215</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

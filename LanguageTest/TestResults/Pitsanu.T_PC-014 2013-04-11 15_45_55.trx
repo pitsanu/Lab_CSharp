@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="97717106-8814-499f-875e-843666dc0d6b" name="Pitsanu.T@PC-014 2013-04-11 15:45:55" runUser="CARPASSAD\Pitsanu.T" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e6779ef9-9e2a-4e1d-ad31-cb7b88621448">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pitsanu.T_PC-014 2013-04-11 15_45_55" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-11T15:45:55.5117518+07:00" queuing="2013-04-11T15:45:55.5742102+07:00" start="2013-04-11T15:45:55.5742102+07:00" finish="2013-04-11T15:45:55.9021168+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestUnSignValue" storage="d:\practices\lab_csharp\languagetest\languagetest\bin\debug\languagetest.dll" id="63021a4d-dfa6-240f-50c5-7497253a5dc5">
+      <Execution id="17ac27f3-7a87-4f4c-89a6-727156afab53" />
+      <TestMethod codeBase="D:/practices/Lab_CSharp/LanguageTest/LanguageTest/bin/Debug/LanguageTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LanguageTest.UnitTest1, LanguageTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUnSignValue" />
+    </UnitTest>
+    <UnitTest name="TestSignValue" storage="d:\practices\lab_csharp\languagetest\languagetest\bin\debug\languagetest.dll" id="95dbb81b-e85e-9e0e-16be-c808efbc3c61">
+      <Execution id="bb2a888b-beda-44ae-9244-590acb3aa0bc" />
+      <TestMethod codeBase="D:/practices/Lab_CSharp/LanguageTest/LanguageTest/bin/Debug/LanguageTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LanguageTest.UnitTest1, LanguageTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSignValue" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\practices\lab_csharp\languagetest\languagetest\bin\debug\languagetest.dll" id="ccb709fb-af1d-7b89-16b4-f3bb0c820935">
+      <Execution id="b7297c8d-244c-4fd8-a6c5-a30ed5c201e6" />
+      <TestMethod codeBase="D:/practices/Lab_CSharp/LanguageTest/LanguageTest/bin/Debug/LanguageTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LanguageTest.EndianTest, LanguageTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63021a4d-dfa6-240f-50c5-7497253a5dc5" executionId="17ac27f3-7a87-4f4c-89a6-727156afab53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95dbb81b-e85e-9e0e-16be-c808efbc3c61" executionId="bb2a888b-beda-44ae-9244-590acb3aa0bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccb709fb-af1d-7b89-16b4-f3bb0c820935" executionId="b7297c8d-244c-4fd8-a6c5-a30ed5c201e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="17ac27f3-7a87-4f4c-89a6-727156afab53" testId="63021a4d-dfa6-240f-50c5-7497253a5dc5" testName="TestUnSignValue" computerName="PC-014" duration="00:00:00.0140328" startTime="2013-04-11T15:45:55.5898248+07:00" endTime="2013-04-11T15:45:55.8396584+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17ac27f3-7a87-4f4c-89a6-727156afab53">
+      <Output>
+        <StdOut>16777215</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb2a888b-beda-44ae-9244-590acb3aa0bc" testId="95dbb81b-e85e-9e0e-16be-c808efbc3c61" testName="TestSignValue" computerName="PC-014" duration="00:00:00.0042439" startTime="2013-04-11T15:45:55.8552730+07:00" endTime="2013-04-11T15:45:55.8552730+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb2a888b-beda-44ae-9244-590acb3aa0bc">
+      <Output>
+        <StdOut>16777215</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7297c8d-244c-4fd8-a6c5-a30ed5c201e6" testId="ccb709fb-af1d-7b89-16b4-f3bb0c820935" testName="TestMethod1" computerName="PC-014" duration="00:00:00.0037325" startTime="2013-04-11T15:45:55.8708876+07:00" endTime="2013-04-11T15:45:55.8708876+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7297c8d-244c-4fd8-a6c5-a30ed5c201e6">
+    </UnitTestResult>
+  </Results>
+</TestRun>
